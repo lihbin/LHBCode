@@ -17,6 +17,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"-----哈哈哈哈");
+    NSObject *obj = [[NSObject alloc] init];
+    NSLog(@"--%@",obj);
 }
 
 
